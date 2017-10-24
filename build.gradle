@@ -1,0 +1,15 @@
+apply plugin: 'java-library'
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+	compile group: 'org.springframework', name: 'spring-context', version: '5.0.0.RELEASE'
+
+    // Use JUnit test framework
+    testImplementation 'junit:junit:4.12'
+}
+
